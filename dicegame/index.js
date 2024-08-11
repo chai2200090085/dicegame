@@ -94,3 +94,7 @@ if(a1>a2)
             document.querySelector(".ass").innerHTML="Player2 won";
             //alert("player2 won");
         }
+document.querySelector("button").addEventListener("click",function()
+                {
+    location.reload();
+})
